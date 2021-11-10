@@ -1,0 +1,39 @@
+*{
+    
+    font-family: 'Poppins', sans-serif;
+}
+.body{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7)rgba(4,9,30,0.7)),url(./wallpaperflare.com_wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: rebeccapurple;
+}
+h1{
+    
+    text-align: center;
+}
+.container{
+    width: 50%;
+    margin: auto;
+}
+input,label{
+    display: block;
+}
+input {
+    margin-bottom: 0.5rem;
+    width: 100%;
+}
+.check-number{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 8px 24px;
+    font-size: 13px;
+    background: transparent;
+    margin-top: 1rem;
+    margin: auto;
+}
