@@ -1,39 +1,60 @@
-*{
-    
-    font-family: 'Poppins', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script:wght@400;700&family=Merriweather:wght@400;700&family=Roboto:wght@400;700&family=Ubuntu:wght@300;400;700&display=swap');
+body{
+    font-family: 'Cookie', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
-.body{
-    min-height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7)rgba(4,9,30,0.7)),url(./wallpaperflare.com_wallpaper.jpg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    color: rebeccapurple;
-}
-h1{
-    
+.heading{
     text-align: center;
+    color: #4C1D95;
 }
 .container{
-    width: 50%;
-    margin: auto;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    
 }
-input,label{
-    display: block;
-}
-input {
-    margin-bottom: 0.5rem;
-    width: 100%;
+.bdate,.lucky-number,.check-button{
+    
+    height: 4rem;
+    margin-top: 1rem ;
+    padding: 1rem;
 }
 .check-number{
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    border: 1px solid #fff;
-    padding: 8px 24px;
-    font-size: 13px;
-    background: transparent;
-    margin-top: 1rem;
-    margin: auto;
+    font-size: larger;
+    margin-bottom: 5rem;
+    margin-right: 2rem;
 }
+.bdate{
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+#lucky-number{
+    height: 2rem;
+    margin-right: 0.5rem;
+    width: 20%;
+    border-color: #4C1D95;
+}
+#date-of-birth{
+    height: 2rem;
+    border-color: #4C1D95;
+}
+
+.button2 {
+    background-color: #4C1D95;
+    color: white;
+    
+    border: 2px solid #4C1D95;
+    transition-duration: 1s;
+  }
+  
+  .button2:hover {
+    background-color: white; 
+    color: #4C1D95; 
+    
+  }
+  label{
+      color: #4C1D95;
+  }
